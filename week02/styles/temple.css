@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rosybrown;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #510606
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 10px #510606;
+}
+
+section {
+    margin: 20px 0;
+    border: 1px solid #510606;
+    padding: 10px;
+    background-color: #abc;
+    font-size: medium;
+}
+
+section p {
+    margin: 10px;
+}
+
+footer {}
