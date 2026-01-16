@@ -34,7 +34,7 @@ aside {
     margin: 1rem;
     border: 5px solid #000;
     padding: 10px;
-    background: color darkred;
+    background-color: #310202;
     color: white;
 
 }
@@ -47,6 +47,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 5px solid #310202;
+    padding: 5px;
+    box-shadow: #310202;
 }
 
 footer {
