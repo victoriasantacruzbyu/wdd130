@@ -98,10 +98,15 @@ nav a {
     color: #ffffff;
     display: block;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .socialmedia img {
     width: 1rem;
+}
+
+.socialmedia a {
+    color: #ffffff;
 }
 
 section {
