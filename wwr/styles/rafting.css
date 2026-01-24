@@ -92,6 +92,7 @@ article {
 
 nav {
     background-color: var(--secondary-color);
+    color: #ffffff;
 }
 
 nav a {
