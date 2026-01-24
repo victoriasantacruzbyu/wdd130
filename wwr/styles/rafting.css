@@ -37,7 +37,7 @@ h2 {
 
 h2 {
     background-color: var(--accent2-color);
-    color: #fff;
+    color: var(--accent1-color);
 
 }
 
@@ -76,7 +76,7 @@ article {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
     top: 10px;
     width: 100%;
     padding: 20px;
@@ -91,6 +91,7 @@ article {
 }
 
 nav a {
+    color: #fff;
     display: block;
     margin-bottom: 10px;
 }
