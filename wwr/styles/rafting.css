@@ -90,18 +90,18 @@ article {
     width: 200px;
 }
 
+nav {
+    background-color: var(--secondary-color);
+}
+
 nav a {
-    color: #fff;
+    color: #ffffff;
     display: block;
     margin-bottom: 10px;
 }
 
 .socialmedia img {
     width: 1rem;
-}
-
-nav {
-    background-color: var(--secondary-color);
 }
 
 section {
