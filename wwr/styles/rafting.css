@@ -1,7 +1,7 @@
 :root {
     --primary-color: #1a3252;
     /* river blue */
-    --secondary-color: #527016;
+    --secondary-color: #394c13;
     /* moss green */
     --accent1-color: #02231b;
     /* dark brown */
@@ -36,7 +36,7 @@ h2 {
 }
 
 h2 {
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     color: #fff;
 
 }
@@ -63,7 +63,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -75,7 +75,7 @@ h1 {
     /* white text – make sure there is enough contrast with the background-color */
 }
 
-article {
+.hero article {
     position: relative;
     top: 10px;
     width: 100%;
@@ -97,4 +97,12 @@ nav a {
 
 .socialmedia img {
     width: 1rem;
+}
+
+nav {
+    background-color: var(--secondary-color);
+}
+
+section {
+    background-color: var(--accent2-color);
 }
