@@ -4,8 +4,8 @@ body {
 }
 
 .flex-container {
-    border: 3px dashed darkcyan;
-    background-color: lightyellow;
+    border: 3px dashed rgb(3, 45, 45);
+    background-color: rgb(78, 78, 10);
     display: flex;
     flex-wrap: wrap;
 }
@@ -28,5 +28,5 @@ body {
 }
 
 .item3 {
-    min-height: 300px;
+    min-height: 250px;
 }
