@@ -36,6 +36,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     background-color: var(--secondary-color);
+    color: #ffffff;
 }
 
 nav a {
