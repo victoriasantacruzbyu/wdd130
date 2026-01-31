@@ -133,7 +133,6 @@ p {
 }
 
 section p img {
-    float: center;
     width: 200px;
     height: auto;
     margin: 20px;
