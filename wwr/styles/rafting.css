@@ -81,19 +81,20 @@ article {
     /* white text – make sure there is enough contrast with the background-color */
 }
 
-.hero article {
+.hero .hero-article {
     position: absolute;
-    top: 10px;
+    top: 300px;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     text-align: left;
     background-color: var(--accent1-color);
     color: #fff;
 }
 
-.hero article img {
+.hero .hero-article img {
     float: right;
-    width: 200px;
+    width: 250px;
+
 }
 
 nav {
