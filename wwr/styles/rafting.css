@@ -163,3 +163,9 @@ footer {
 .socialmedia img {
     width: 30px;
 }
+
+.employees img {
+    width: 50px;
+    display: flex;
+    gap: 1rem;
+}
