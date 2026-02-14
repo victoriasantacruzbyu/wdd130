@@ -42,8 +42,7 @@ nav {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    display: block;
-    margin-bottom: 10px;
+    padding: 0.5rem 1rem;
 }
 
 h1,
@@ -164,8 +163,36 @@ footer {
     width: 30px;
 }
 
-.employees img {
-    width: 50px;
+.employees {
     display: flex;
-    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.employees img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem;
+}
+
+.map iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
 }
