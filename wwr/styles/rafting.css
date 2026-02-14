@@ -209,3 +209,89 @@ footer {
     flex-direction: column;
     gap: 0.8rem;
 }
+
+/*index*/
+
+.offer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem;
+}
+
+.newsletter-singup {
+    background-color: #a38f6a;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.newsletter-singup form {
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+}
+
+.index-images {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.text-block {
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.text-block h3 {
+    margin-top: 1rem;
+}
+
+.index-images p + p {
+    margin-top: 1rem;
+}
+
+.index-images p {
+    text-align: left;
+    line-height: 1.6;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.firstimg,
+.secondimg {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #394c13;
+}
+
+.call-to-action {
+    background-color: #a38f6a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #a38f6a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: #394c13;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/*trips*/
